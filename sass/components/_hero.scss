@@ -8,7 +8,7 @@
   padding-bottom: 122px;
   background-color: #07081C;
 
-  background-image: url(/images/first-bg.svg);
+  background-image: url("/images/burger-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   @media (min-device-pixel-ratio: 2),
@@ -18,7 +18,7 @@
         rgba(150, 150, 150, 0.4),
         rgba(0, 0, 0, 0.4)
       ),
-      url("../images/Hero-background-480@2x.jpg");
+      url("/images/burger-bg-480@2x.png");
   }
 
   @media screen and (min-width: 768px) {
@@ -108,7 +108,7 @@
 }
 .hero__item::before {
   content: "";
-  background: url(/images/dashicon.svg);
+  background: url("/images/dashicon.svg");
   width: 18px;
   height: 18px;
 }
