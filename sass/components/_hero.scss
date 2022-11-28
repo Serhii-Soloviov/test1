@@ -1,0 +1,139 @@
+/* HERO */
+.hero {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 182px;
+  padding-bottom: 122px;
+  background-color: #07081C;
+
+  background-image: url(/images/first-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(150, 150, 150, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("../images/Hero-background-480@2x.jpg");
+  }
+
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+    padding: 118px 0;
+    background-image: linear-gradient(
+        rgba(150, 150, 150, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url();
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(150, 150, 150, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url();
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1600px;
+    padding: 200px 0;
+
+    background-image: linear-gradient(
+        rgba(150, 150, 150, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url();
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(150, 150, 150, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url();
+    }
+  }
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  @media screen and (min-width: 768px) {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+.hero__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  width: 240px;
+  @media screen and (min-width: 768px) {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 28px;
+    width: 370px;
+  }
+}
+.hero__list {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 60px;
+  }
+}
+.hero__item::before {
+  content: "";
+  background: url(/images/dashicon.svg);
+  width: 18px;
+  height: 18px;
+}
+.hero__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: flex-start;
+  @media screen and (min-width: 768px) {
+  }
+}
+
+.hero__btn {
+  padding: 12px 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    margin: 0 auto;
+    display: block;
+  }
+}
