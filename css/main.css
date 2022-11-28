@@ -361,7 +361,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url("/images/burger-bg.png");
+    background-image: url("../images/burger-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
