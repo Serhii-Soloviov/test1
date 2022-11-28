@@ -361,7 +361,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url("../images/burger-bg.png");
+    background-image: url("../images/burger-bg.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -370,11 +370,6 @@ ul {
     height: 100%;
     padding: 16px 20px;
     overflow: hidden;
-  }
-}
-@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
-  .navigation {
-    background-image: url("/images/burger-bg-480@2x.png");
   }
 }
 @media screen and (min-width: 768px) {
