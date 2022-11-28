@@ -361,7 +361,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url(/images/burger-bg.png);
+    background-image: url("/images/burger-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -370,6 +370,11 @@ ul {
     height: 100%;
     padding: 16px 20px;
     overflow: hidden;
+  }
+}
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .navigation {
+    background-image: url("/images/burger-bg-480@2x.png");
   }
 }
 @media screen and (min-width: 768px) {
@@ -522,14 +527,14 @@ ul {
   padding-top: 182px;
   padding-bottom: 122px;
   background-color: #07081C;
-  background-image: url(/images/first-bg.svg);
+  background-image: url("../images/burger-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(150, 150, 150, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/Hero-background-480@2x.jpg");
-    background-image: linear-gradient(rgba(150, 150, 150, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Hero-background-480@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(150, 150, 150, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/burger-bg-480@2x.png");
+    background-image: linear-gradient(rgba(150, 150, 150, 0.4), rgba(0, 0, 0, 0.4)), url("../images/burger-bg-480@2x.png");
   }
 }
 @media screen and (min-width: 768px) {
@@ -622,7 +627,7 @@ ul {
 
 .hero__item::before {
   content: "";
-  background: url(/images/dashicon.svg);
+  background: url("../images/dashicon.svg");
   width: 18px;
   height: 18px;
 }
