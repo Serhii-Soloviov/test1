@@ -770,4 +770,11 @@ img {
     bottom: 0;
     left: 199px;
   }
+}
+@media screen and (min-width: 1280px) {
+  .hero__wraper--decor {
+    position: absolute;
+    top: 227px;
+    left: 339px;
+  }
 }/*# sourceMappingURL=main.css.map */
