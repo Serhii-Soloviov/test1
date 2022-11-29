@@ -92,7 +92,6 @@ img {
       padding: 16px 20px;
       overflow: hidden;
     }
-
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -148,6 +147,14 @@ img {
 
 .navigation__link {
   color: inherit;
+}
+.navigation__link:hover,
+.navigation__link:focus {
+  background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 
 .header__menu-button {
