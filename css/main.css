@@ -500,9 +500,6 @@ img {
   right: 16px;
   padding: 0;
 }
-.header__menu-button:hover, .header__menu-button:focus {
-  color: #ffffff;
-}
 @media screen and (min-width: 768px) {
   .header__menu-button {
     display: none;
