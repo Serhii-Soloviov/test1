@@ -129,6 +129,7 @@
   align-items: flex-start;
   height: 15px;
   @media screen and (min-width: 768px) {
+    height: 19px;
   }
 }
 .wraper-btn {
@@ -181,8 +182,17 @@
     top: 258px;
     right: 32px;
   }
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    top: 222px;;
+    right: 55px;
+  }
 }
 .hero__wraper--decor {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
   @media screen and (min-width: 768px) {
     position: absolute;
     bottom: 0;

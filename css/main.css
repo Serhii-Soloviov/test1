@@ -686,6 +686,12 @@ img {
           align-items: flex-start;
   height: 15px;
 }
+@media screen and (min-width: 768px) {
+  .hero__item {
+    height: 19px;
+  }
+}
+
 .wraper-btn {
   background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
   width: 200px;
@@ -745,7 +751,19 @@ img {
     right: 32px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .hero__wraper--phone {
+    position: absolute;
+    top: 222px;
+    right: 55px;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .hero__wraper--decor {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero__wraper--decor {
     position: absolute;
