@@ -41,12 +41,7 @@
           </ul>
         </nav>
 
-        <button
-          type="button"
-          class="header__menu-button"
-          aria-expended="false"
-          data-menu-button
-        >
+        <button type="button" class="header__menu-button">
           <svg
             class="icon header__menu-icon--close"
             width="32"
@@ -75,8 +70,8 @@
 
     <main>
       <!-- Шапка -->
-      <section class="section hero">
-        <div class="container hero__container">
+      <section class="hero">
+        <div class="hero__container">
           <h1 class="hero__title">Introducing Mobileapp</h1>
           <h2 class="hero__subtitle">Maecenas vitae tellus sapien. Prasent</h2>
           <ul class="hero__list list">
@@ -88,10 +83,53 @@
           </ul>
           <button class="hero__btn" type="button">Download</button>
         </div>
+        <div class="hero__wraper--phone">
+          <picture>
+            <source
+              srcset="
+                ./images/mobile-apple.png    1x,
+                ./images/mobile-apple@2x.png 2x
+              "
+              media="(max-width:767px)"
+            />
+            <source
+              srcset="
+                ./images/tablet-apple.png    1x,
+                ./images/tablet-apple@2x.png 2x
+              "
+              media="(max-width:1279px)"
+            />
+            <source
+              srcset="
+                ./images/desktop-apple.png    1x,
+                ./images/desktop-apple@2x.png 2x
+              "
+              media="(min-width:1280px)"
+            />
+            <img src="./images/mobile-apple.png" alt="Phone" />
+          </picture>
+        </div>
+        <div class="hero__wraper--decor">
+          <source
+            srcset="
+              ./images/tablet-decor.png    1x,
+              ./images/tablet-decor@2x.png 2x
+            "
+            media="(max-width:1279px)"
+          />
+          <source
+            srcset="
+              ./images/desktop-decor.png    1x,
+              ./images/desktop-decor@2x.png 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <img src="./images/tablet-decor.png" alt="Decor" />
+        </div>
       </section>
     </main>
 
-    <div class="modal-container is-hidden" data-modal>
+    <!-- <div class="modal-container is-hidden" data-modal>
       <div class="modal">
         <button class="modal__close-button" type="button" data-modal-close>
           <svg class="icon" width="11" height="11">
@@ -165,7 +203,7 @@
       </div>
     </div>
 
-    <script src="./modal.js"></script>
+    <script src="./modal.js"></script> -->
 
     <script src="./mobile-menu.js"></script>
   </body>
