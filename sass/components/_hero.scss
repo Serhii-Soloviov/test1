@@ -12,14 +12,14 @@
     // padding-left: 20px;
     padding-top: 182px;
     padding-bottom: 122px;
-    background-image: url(/images/mobile-blur@1x.png);
+    background-image: url("../images/mobile-blur@1x.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/mobile-blur@2x.png);
+      background-image: url("../images/mobile-blur@2x.png");
     }
   }
 
@@ -28,14 +28,14 @@
     padding-top: 142px;
     padding-bottom: 143px;
     padding-left: 32px;
-    background-image: url(/images/tablet-blur@1x.png);
+    background-image: url("../images/tablet-blur@1x.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/tablet-blur@2x.png);
+      background-image: url("../images/tablet-blur@2x.png");
     }
   }
 
@@ -44,14 +44,14 @@
     padding-top: 243px;
     padding-bottom: 146px;
     padding-left: 16px;
-    background-image: url(/images/desktop-blur@1x.png);
+    background-image: url("../images/desktop-blur@1x.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/desktop-blur@2x.png);
+      background-image: url("../images/desktop-blur@2x.png");
     }
   }
 }
