@@ -117,20 +117,21 @@
           </picture>
         </div>
         <div class="hero__wraper--decor">
-          <source
-            srcset="
-              ./images/tablet-decor.png    1x,
-              ./images/tablet-decor@2x.png 2x
-            "
-            media="(min-width:768px)"
-          />
-          <source
-            srcset="
-              ./images/desktop-decor.png    1x,
-              ./images/desktop-decor@2x.png 2x
-            "
-            media="(min-width:1280px)"
-          />
+          <picture
+            ><source
+              srcset="
+                ./images/tablet-decor.png    1x,
+                ./images/tablet-decor@2x.png 2x
+              "
+              media="(min-width:768px)" />
+            <source
+              srcset="
+                ./images/desktop-decor.png    1x,
+                ./images/desktop-decor@2x.png 2x
+              "
+              media="(min-width:1280px)"
+          /></picture>
+
           <img src="./images/tablet-decor.png" alt="Decor" />
         </div>
       </section>
